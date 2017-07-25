@@ -25,8 +25,11 @@
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/timer.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css"> <!-- thats important for animation effekcts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
 
 
 
@@ -35,119 +38,172 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body id="page-top">
+    <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a id="mainTitle" class="navbar-brand page-scroll" href="#page-top">Corbon Bleu</a>
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a id="mainTitle" class="navbar-brand page-scroll" href="#page-top">Corbon Bleu</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="page-scroll" href="#about">Concept</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#numbers">Chiffres</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#services">Notre Ambition</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#team">L'équipe</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
+            <!-- /.container-fluid -->
+        </nav>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">Concept</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Notre Ambition</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">L'équipe</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+        <header>
+            <div class="header-content">
+                <div class="header-content-inner">
+                    <h1 id="homeHeading" class="animated fadeInRight text-center">Le monde en cuisine</h1>
+                    <hr>
+                    <p id="headerSlogan" class="animated fadeInLeft">Venez participer à la création du meilleur Marché culinaire du monde </p>
+                    <a id="headerButton" href="#about" class="animated bounceInUp btn btn-primary btn-xl page-scroll">Allez, viens !</a>
+                </div>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+        </header>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading" class="animated fadeInRight text-center">Le monde en cuisine !</h1>
-                <hr>
-                <p id="headerSlogan" class="animated fadeInLeft">Venez découvrir le meilleur marché culinaire du monde </p>
-                <a id="headerButton" href="#about" class="animated bounceInUp btn btn-primary btn-xl page-scroll">En savoir plus</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Un lieu de découverte culinaire !</h2>
-                    <hr class="light">
-                    <p class="text-faded">Offrant la plus grande variété de stands, Le marché permettra de consommer la crème de la crème des produits français et mettra en valeur l’excellence de la restauration. A l’image de Paris, gourmande, cosmopolite et globale, il rassemblera des spécialités régionales française mais aussi celles du monde entier. </p>
-                        <p class="text-faded">Nous concevons ce marché avant tout comme un moyen de se rassembler autour des différents cultures culinaires. Un lieu d’éducation et de culture par la gastronomie. </p>
-                        <p class="text-faded">
-                            Nous voulons également donner l’opportunité à de nouveaux restaurateurs de s’établir rapidement et facilement sans avoir à investir un capital de départ important.
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">Un lieu de découverte culinaire !</h2>
+                        <hr class="primary">
+                        <p class="text-muted"> Corbon Bleu entend transformer le paysage culinaire en créant des marchés vivants. Notre objectif est d’apporter de la vie et de mettre en lumière des quartiers parfois négligés ou oubliés.
                         </p>
-                        <p class="text-faded"> Le marché culinaire est un projet qui traduit le désir actuel de connaître ce que l’on mange et de savoir d’où cela vient dans un lieu qui fasse l’éloge de la gastronomie
+                        <p class="text-muted">Offrant la plus grande variété de stands, le Marché permettra de consommer la crème de la crème des produits français et mettra en valeur l’excellence de la restauration. A l’image de Paris, gourmande, cosmopolite et globale, il rassemblera des spécialités régionales françaises mais aussi celles du monde entier. </p>
+                        <p class="text-muted">Corbon Bleu conçoit ce Marché avant tout comme un moyen de se rassembler autour des différentes cultures culinaires. Un lieu d’éducation et de culture par la gastronomie. </p>
+                        <p class="text-muted"> Le Marché culinaire est un projet qui traduit le désir actuel de connaître ce que l’on mange et de savoir d’où cela vient dans un lieu qui fasse l’éloge de la gastronomie
                         </p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Notre Ambition</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-globe text-primary sr-icons"></i>
-                        <h3>Diversité</h3>
-                        <p class="text-muted"> Une quinzaine de restaurateurs aux spécialités différentes</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Qualité</h3>
-                        <p class="text-muted"> Des produits frais et de saison préparés sous vos yeux </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-envira text-primary sr-icons"></i>
-                        <h3>Ethique</h3>
-                        <p class="text-muted"> Nous favorisons produits issus de circuits-court et bénéficiant d’un signe officiel de la qualité et de l’origine </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-eur text-primary sr-icons"></i>
-                        <h3>Prix abordables</h3>
-                        <p class="text-muted"> Les restaurateurs proposeront des plats à un prix moyen de 10€</p>
+                        <a href="#numbers" class="page-scroll btn btn-primary btn-xl sr-button">Viens !</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-<section class="bg-primary" id="team"><!--main-section team-start-->
- <div class="container">
+        <section class="bg-primary" id="numbers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">Vous êtes au centre de notre projet</h2>
+                        <hr class="light">
+                        <div id="counterDiv" class="row">
+                            <h4 style="margin-top:30px;">Corbon Bleu a compris que pour vous*, bien manger c'est :</h4>
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <div class="service-box">
+                                    <i class="fa fa-4x fa-balance-scale text-light sr-icons"></i>
+                                    <h2> <b><span class="statistic-counter" data-counterup-time="2000" data-counterup-delay="1000" data-counterup-beginat="1">63</span></b> <i class="fa fa-percent text-light"></i></h2>
+                                    <h4>L'équilibre</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <div class="service-box">
+                                    <i class="fa fa-4x fa-random text-light sr-icons"></i>
+                                    <h2> <b><span class="statistic-counter">59</span></b> <i class="fa fa-percent text-light"></i></h2>
+                                    <h4>Le choix</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <div class="service-box">
+                                    <i class="fa fa-4x fa-heart text-light sr-icons"></i>
+                                    <h2> <b><span class="statistic-counter">56</span></b> <i class="fa fa-percent text-light"></i></h2>
+                                    <h4>Manger sain</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <div class="service-box">
+                                    <i class="fa fa-4x fa-users text-light sr-icons"></i>
+                                    <h2> <b><span class="statistic-counter">54</span></b> <i class="fa fa-percent text-light"></i></h2>
+                                    <h4>La convivialité</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p id="caseStudy" class="text-faded"> * Etude réalisé par TNS SOFRES pour le SIAL 2014
+                            </p>
+                        </div>
+                        <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Regarde tout ce qu'on veut faire !</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Notre Ambition</h2>
+                        <hr class="primary">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-globe text-primary sr-button"></i>
+                            <h3>Diversité</h3>
+                            <p class="text-muted"> Une quinzaine de restaurateurs aux spécialités différentes</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-diamond text-primary sr-button"></i>
+                            <h3>Qualité</h3>
+                            <p class="text-muted"> Des produits frais et de saison préparés sous vos yeux </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-envira text-primary sr-button"></i>
+                            <h3>Ethique</h3>
+                            <p class="text-muted"> Nous favorisons des produits issus de circuit-courts et bénéficiant d’un signe officiel de la qualité et de l’origine </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-eur text-primary sr-button"></i>
+                            <h3>Prix abordables</h3>
+                            <p class="text-muted"> Les restaurateurs proposeront des plats à un prix moyen de 10€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center" style="margin-top:70px;">
+                    <a href="#team" class="page-scroll btn btn-primary btn-xl sr-button">Allez !</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-primary" id="team"><!--main-section team-start-->
+           <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">L'équipe</h2>
@@ -155,56 +211,58 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 text-center">
-                  <img class="circle-avatar" src="img/team/ophelie.jpg" height="200" style="margin-top: 40px;">
-                  <h4> Ophélie </h4>
-                  <p class="team-user text-faded"> Un peu de bla bla sur Ophélie, qui a fait des grandes études et est très investie bla bla bla...</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 text-center">
-                <img class="circle-avatar" src="img/team/thomas.jpg" height="200" style="margin-top: 40px;">
-                <h4> Thomas </h4>
-                <p class="team-user text-faded"> Un peu de bla bla sur Thomas, qui a fait des grandes études et est très investie bla bla bla...</p>
-            </div>
-
-        
+              <img class="sr-contact" src="img/team/ophelie.png" height="200" style="margin-top: 40px;">
+              <h4 style="margin-bottom:0px;"> Ophélie</h4>
+              <h4 class="text-faded" style="margin-top:5px;font-style:italic;">Co-Fondatrice - Directrice Générale</h4>
+              <p class="team-user text-faded" style="text-align: justify;"> Responsable design, marketing et événementiel, elle saura faire du Marché un lieu convivial et chaleureux d’où vous ne voudrez plus décoller ! Elle répondra aussi sans relâche à toutes vos questions par mail et sur les réseaux sociaux, comme elle le fait depuis 2 ans pour une marque de vêtement. D’ailleurs, elle adore les vêtements, la déco, les petites plantes vertes et les choses bien rangées.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 text-center">
+            <img class="sr-contact" src="img/team/thomas.png" height="200" style="margin-top: 40px;">
+            <h4 style="margin-bottom:0px;"> Thomas</h4>
+            <h4 class="text-faded" style="margin-top:5px;font-style:italic;"> Co-Fondateur - Président</h4>
+            <p class="team-user text-faded" style="text-align: justify;"> En charge des aspects juridiques et financiers de la boîte. Passionné de gastronomie, il adore dénicher les restaurants et surtout y manger ! C’est LE pote qui a toujours son Routard dans la poche et à qui on fait confiance les yeux fermés pour choisir un resto. Juriste, il a déserté les cabinets d’affaire pour se consacrer à la seule chose qu’il aime vraiment : manger. A part ça, il a quand même d’autres passions : le sport, l’Histoire et les BD. </p>
+        </div>
     </div>
 </section>
 
 <section id="contact">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contactez-nous</h2>
-                    <hr class="star-primary">
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Contactez-nous</h2>
+                <hr class="star-primary">
             </div>
-            <div class="row">
+        </div>
+        <div class="row">
+            <p class="text-center">
+                Restaurateurs, Investisseurs, Partenaires ou futurs consommateurs, n’hésitez pas à nous adresser un message.</p>
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
+                        <div class="sr-icons row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="name">Nom</label>
                                 <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Veuillez entrer un nom.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row control-group">
+                        <div class="sr-icons row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="email">Adresse e-mail</label>
                                 <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Veuillez entrer une adressse valide.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row control-group">
+                        <div class="sr-icons row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="phone">Téléphone (facultatif)</label>
                                 <input type="tel" class="form-control" placeholder="Phone Number" id="phone">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row control-group">
+                        <div class="sr-icons row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="message">Message</label>
                                 <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Veuillez entrer un message."></textarea>
@@ -224,9 +282,13 @@
     </section>
 
     <footer class="bg-dark footer" id="myFooter">
-        
+
         <div>
             <p id="footer-slogan">A demain </p>
+        </div>
+        <div class="text-center" style="margin-top:5px;">
+            <a>Tel : +33 6 50 82 10 86</a> <br>
+            <a>Mél : contact(at)corbonbleu.fr</a>
         </div>
         <div class="social-networks">
             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -249,6 +311,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="js/timer.js"></script>
+
+
 
     <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>

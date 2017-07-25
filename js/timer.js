@@ -1,0 +1,2 @@
+
+$('.statistic-counter').counterUp();

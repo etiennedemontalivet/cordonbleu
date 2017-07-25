@@ -2,7 +2,12 @@
 
 @font-face {
     font-family: logoFont;
-    src: url(fonts/better-together-spaced.ttf);
+    src: url(fonts/jonah.ttf);
+}
+
+@font-face {
+    font-family: geneva;
+    src: url(fonts/geneva.ttf);
 }
 
 
@@ -215,6 +220,7 @@ header .header-content .header-content-inner p {
   }
 }
 .section-heading {
+  font-family: geneva;
   margin-top: 0;
 }
 .service-box {
@@ -426,13 +432,17 @@ body {
 
 #mainTitle {
   font-family: logoFont;
-  font-size: 45px;
+  font-size: 32px;
 }
 
 .team-user {
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.geneva {
+  font-family: geneva;
 }
 
 /* Animations */
@@ -461,6 +471,7 @@ body {
 }
 
 #homeHeading {
+  font-family: geneva;
   -moz-animation-duration: 2.5s;
   -moz-animation-delay: 0s;
   -moz-animation-iteration-count: 1;
@@ -472,3 +483,11 @@ body {
   -ms-animation-iteration-count: 1;
 }
 /* End animations */
+
+#caseStudy {
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+  margin-top: 30px;
+
+}

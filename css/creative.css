@@ -421,6 +421,9 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+
+/* Etienne adds */ 
+
 #mainTitle {
   font-family: logoFont;
   font-size: 45px;
@@ -431,3 +434,41 @@ body {
   margin-left: 50px;
   margin-right: 50px;
 }
+
+/* Animations */
+#headerButton {
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 1.5s;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-duration: 1.5s;
+  -ms-animation-delay: 2s;
+  -ms-animation-iteration-count: 1;
+}
+
+#headerSlogan {
+  -moz-animation-duration: 2.5s;
+  -moz-animation-delay: 0s;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-duration: 2.5s;
+  -ms-animation-delay: 0s;
+  -ms-animation-iteration-count: 1;
+}
+
+#homeHeading {
+  -moz-animation-duration: 2.5s;
+  -moz-animation-delay: 0s;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-duration: 2.5s;
+  -ms-animation-delay: 0s;
+  -ms-animation-iteration-count: 1;
+}
+/* End animations */

@@ -25,13 +25,8 @@
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
-    <link href="css/timer.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css"> <!-- thats important for animation effekcts -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-
-
-
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -78,9 +73,12 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
-
+        
         <header>
-            <div class="header-content">
+            <div id="loading">
+                <i id="loading-image" class="fa fa-spinner text-primary fa-spin fa-3x fa-fw"></i>
+            </div>
+            <div id="headerId" class="header-content">
                 <div class="header-content-inner">
                     <h1 id="homeHeading" class="animated fadeInRight text-center">Le monde en cuisine</h1>
                     <hr>
@@ -314,11 +312,12 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <script src="js/timer.js"></script>
-
+    <script src="js/loader.js"></script>
 
 
     <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>
+
 
 </body>
 

@@ -437,8 +437,6 @@ body {
 
 .team-user {
   margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .geneva {
@@ -489,5 +487,35 @@ body {
   font-style: italic;
   text-align: right;
   margin-top: 30px;
+}
 
+#loading {
+   width: 100%;
+   height: 100%;
+   display: block;
+   opacity: 0.7;
+   background-color: #fff;
+   z-index: 99;
+   text-align: center;
+}
+
+#loading-image {
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+  z-index: 100;
+}
+
+@media (min-width: 992px) {
+  .team-user {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .team-user {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }

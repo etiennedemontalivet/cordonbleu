@@ -1,4 +1,3 @@
-$('#headerId').hide();
 $('#loading').css('height',$(window).height());
 $('#loading').css('width',$(window).width());
 
